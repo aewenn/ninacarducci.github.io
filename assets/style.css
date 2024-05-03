@@ -97,7 +97,7 @@ body {
 }
 
 #about-me h3 {
-	font-size: 16px;
+	font-size: 1rem;
 }
 
 #gallery {
@@ -107,6 +107,7 @@ body {
 .title {
 	text-align: center;
 	padding-block: 2em;
+	font-size: calc(1.3rem + 0.6vw);
 }
 
 .gallery .nav {
@@ -286,7 +287,8 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 
-	#about-me h3, #about-me p {
+	#about-me h3,
+	#about-me p {
 		width: 100%;
 	}
 }
