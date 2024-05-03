@@ -96,6 +96,10 @@ body {
 	font-size: 14px;
 }
 
+#about-me h3 {
+	font-size: 16px;
+}
+
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -282,8 +286,7 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 
-	#about-me h6,
-	#about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
